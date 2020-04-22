@@ -350,3 +350,43 @@ img {
 	padding: 0.5rem 1.5rem;
 }
 
+/*MEDIA QUERIES*/
+
+@media (max-width: 1279px) {
+	.grid-wrapper {
+		grid-template-columns: 190px 2fr 1.5fr;
+	}
+
+	/*SIDEBAR SECTION*/
+
+	.links-wrapper {
+		align-items: flex-end;
+	}
+
+	.sidebar-links .links-wrapper div {
+		padding: 1.5rem 2rem;
+		/*border: 2px solid black;*/
+	}
+
+	.sidebar-links p,
+	.sidebar-tweet p {
+		display: none;
+	}
+
+	.sidebar-tweet a {
+		border-radius: 100%;
+		padding: 1.2rem .3rem;
+	}
+
+	.sidebar-links i {
+		margin-right: 1rem;
+	}
+
+	.sidebar-tweet .fas {
+		display: inline-block;
+		margin-left: 10px;
+		font-size: 2.8rem;
+	}
+
+
+}
