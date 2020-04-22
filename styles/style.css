@@ -354,7 +354,7 @@ img {
 
 @media (max-width: 1279px) {
 	.grid-wrapper {
-		grid-template-columns: 0.5fr 2fr 1.5fr;
+		grid-template-columns: 0.5fr 620px 1.5fr;
 	}
 
 	/*SIDEBAR SECTION*/
@@ -410,7 +410,8 @@ img {
 	/*RIGHT SECTION*/
 
 	.right-section {
-		min-width: 80%;
+		width: 300px;
+		margin-left: 30px;
 	}
 
 
