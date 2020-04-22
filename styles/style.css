@@ -76,6 +76,10 @@ img {
 	border-radius: 30px;
 }
 
+.sidebar-tweet .fas {
+	display: none;
+}
+
 /*Main Section Styles*/
 
 .profile-main {
@@ -345,6 +349,4 @@ img {
 .btn-2 {
 	padding: 0.5rem 1.5rem;
 }
-
-/*Media Queries*/
 
