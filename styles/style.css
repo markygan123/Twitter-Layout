@@ -296,6 +296,10 @@ img {
 	align-items: center;
 }
 
+.trends h4 {
+	font-weight: bold;
+}
+
 .show-more a {
 	color: #00b9ff;
 }
@@ -341,4 +345,6 @@ img {
 .btn-2 {
 	padding: 0.5rem 1.5rem;
 }
+
+/*Media Queries*/
 
