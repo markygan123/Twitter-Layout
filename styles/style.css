@@ -200,10 +200,14 @@ img {
 	text-transform: capitalize;
 
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	place-items: center center;
 	padding: 15px;
 	border-bottom: 1px solid #e8e8e8;
+}
+
+.user-menus span:nth-of-type(2) {
+	grid-column: span 2;
 }
 
 .user-menus span > a {
@@ -442,4 +446,10 @@ img {
 	.grid-wrapper {
 		grid-template-columns: 100px 3fr;
 	}
+}
+
+@media (max-width: 657px) {
+	/*.user-menus span > a {
+		font-size: 1.4rem;
+	}*/
 }
