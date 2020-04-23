@@ -423,3 +423,17 @@ img {
 		margin: auto;
 	}
 }
+
+@media (max-width: 1015px) {
+	.grid-wrapper {
+		grid-template-columns: 100px 620px 1fr;
+	}
+
+	.main-section {
+		max-width: 620px;
+	}
+
+	.right-section {
+		display: none;
+	}
+}
