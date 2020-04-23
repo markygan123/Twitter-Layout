@@ -467,17 +467,21 @@ img {
 	.sidebar-links .links-wrapper {
 		position: relative;
 		border: 2px solid black;
-		flex-direction: row;
+		/*flex-direction: row;
 		justify-content: space-between;
-		margin-left: 0;
+		margin-left: 0;*/
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		justify-content: space-between;
 	}
 
 	.sidebar-links .links-wrapper div {
 		font-weight: 700;
+		border: 2px solid black;
 	}
 
 	.sidebar-links i {
-		margin-right: 50px;
+		/*margin-right: 50px;*/
 	}
 
 	.links-wrapper .logo,
@@ -508,7 +512,7 @@ img {
 	.sidebar-tweet {
 		position: absolute;
 		right: 0;
-		bottom: 60px;
+		bottom: 150px;
 		margin: 0;
 
 	}
