@@ -437,3 +437,9 @@ img {
 		display: none;
 	}
 }
+
+@media (max-width: 719px) {
+	.grid-wrapper {
+		grid-template-columns: 100px 3fr;
+	}
+}
