@@ -54,6 +54,7 @@ img {
 	display: flex;
 	padding: 1.5rem 3rem;
 	text-transform: capitalize;
+	/*border: 1px solid black;*/
 	font-weight: 700;
 }
 
@@ -365,7 +366,6 @@ img {
 
 	.sidebar-links .links-wrapper div {
 		padding: 1.5rem 2rem;
-		/*border: 2px solid black;*/
 	}
 
 	.sidebar-links p,
@@ -376,10 +376,6 @@ img {
 	.sidebar-tweet a {
 		border-radius: 100%;
 		padding: 1.2rem .3rem;
-	}
-
-	.sidebar-links i {
-		margin-right: 1rem;
 	}
 
 	.sidebar-tweet .fas {
@@ -413,9 +409,17 @@ img {
 		width: 300px;
 		margin-left: 30px;
 	}
+}
 
+@media (max-width: 1102px) {
+	.grid-wrapper {
+		grid-template-columns: 100px 620px 1fr;
+	}
 
-	
+	/*RIGHT SECTION*/
 
-
+	.right-section {
+		width: 275px;
+		margin: auto;
+	}
 }
