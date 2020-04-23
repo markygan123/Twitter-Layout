@@ -444,12 +444,79 @@ img {
 
 @media (max-width: 719px) {
 	.grid-wrapper {
-		grid-template-columns: 100px 3fr;
+		grid-template-columns: 90px 3fr;
 	}
 }
 
-@media (max-width: 657px) {
-	/*.user-menus span > a {
-		font-size: 1.4rem;
-	}*/
+@media (max-width: 499px) {
+	.grid-wrapper {
+		grid-template-columns: 100%;
+		grid-template-areas: 
+			"main"
+			"sidebar";
+	}
+
+	.sidebar-links {
+		position: fixed;
+		bottom: 0;
+		grid-area: sidebar;
+		width: 100vw;
+		height: 50px;
+	}
+
+	.sidebar-links .links-wrapper {
+		position: relative;
+		border: 2px solid black;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-left: 0;
+	}
+
+	.sidebar-links .links-wrapper div {
+		font-weight: 700;
+	}
+
+	.sidebar-links i {
+		margin-right: 50px;
+	}
+
+	.links-wrapper .logo,
+	.links-wrapper .bookmarks,
+	.links-wrapper .lists,
+	.links-wrapper .profile,
+	.links-wrapper .more {
+		display: none;
+	}
+
+	.links-wrapper .logo i,
+	.links-wrapper .bookmarks i,
+	.links-wrapper .lists i,
+	.links-wrapper .profile i,
+	.links-wrapper .more i {
+		display: none;
+	}
+
+	.profile-main {
+		grid-area: main;
+	}
+
+	.sidebar-links .fa-twitter {
+		color: #00b9ff;
+		font-size: 5rem;
+	}
+
+	.sidebar-tweet {
+		position: absolute;
+		right: 0;
+		bottom: 60px;
+		margin: 0;
+
+	}
+
+	.sidebar-tweet a {
+		width: 60%;
+		text-align: center;
+	}
+
+	
 }
