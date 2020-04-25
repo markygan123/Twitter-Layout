@@ -200,6 +200,7 @@ img {
 .user-info .user-following span {
 	font-weight: bold;
 	font-size: 1.7rem;
+	color: initial;
 }
 
 .user-menus {
