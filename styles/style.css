@@ -168,11 +168,18 @@ img {
 .user-info .names p:first-of-type {
 	font-size: 1.4rem;
 	margin-bottom: 12px;
+
 }
 
 .user-info .names p:last-of-type {
 	margin-bottom: 10px;
 
+}
+
+.user-info .names p:first-of-type,
+.user-birthdate,
+.user-following p {
+	color: #6e6e6e;
 }
 
 .user-info .user-birthdate,
