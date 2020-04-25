@@ -203,6 +203,11 @@ img {
 	color: initial;
 }
 
+.user-info .user-following p:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
 .user-menus {
 	margin-top: 30px;
 	text-transform: capitalize;
