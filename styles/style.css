@@ -229,6 +229,10 @@ img {
 	color: #6e6e6e;
 }
 
+.user-menus span > a:hover {
+	color: #00b9ff;;
+}
+
 /*Right Section Styles*/
 
 .right-section {
