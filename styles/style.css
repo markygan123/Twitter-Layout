@@ -483,9 +483,6 @@ img {
 	.sidebar-links .links-wrapper {
 		position: relative;
 		border: 2px solid black;
-		/*flex-direction: row;
-		justify-content: space-between;
-		margin-left: 0;*/
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		justify-content: space-between;
