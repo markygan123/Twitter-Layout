@@ -61,6 +61,10 @@ img {
 	margin-right: 1.5rem;
 }
 
+.sidebar-links .links-wrapper > div:hover {
+	color: #00b9ff;
+}
+
 .sidebar-links .fa-twitter {
 	color: #00b9ff;
 	font-size: 3rem;
